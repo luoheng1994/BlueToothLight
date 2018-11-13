@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  BlueLight
+
+  Created by Rail on 5/24/16.
+  Copyright © 2016 Rail. All rights reserved.
+*/
+"附近" = "Nearby";
+"灯列表" = "Lights";
+"分组" = "Groups";
+
+"蓝牙灯" = "Blue Light";

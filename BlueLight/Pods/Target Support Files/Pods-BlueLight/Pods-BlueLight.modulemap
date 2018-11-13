@@ -1,0 +1,6 @@
+framework module Pods_BlueLight {
+  umbrella header "Pods-BlueLight-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4142AB41CF42B7B00C0A5C8 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142AB31CF42B7B00C0A5C8 /* MainController.swift */; };
+		B4142AB81CF42E2300C0A5C8 /* SlideTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142AB61CF42E2300C0A5C8 /* SlideTopBar.swift */; };
+		B4142AB91CF42E2300C0A5C8 /* SlideTopBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142AB71CF42E2300C0A5C8 /* SlideTopBarController.swift */; };
+		B4142ABF1CF42F7400C0A5C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4142AC11CF42F7400C0A5C8 /* Localizable.strings */; };
+		B4142AC61CF4300A00C0A5C8 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142AC41CF4300A00C0A5C8 /* UIColor+Utils.swift */; };
+		B4142AC71CF4300A00C0A5C8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142AC51CF4300A00C0A5C8 /* Utils.swift */; };
+		B4142AC91CF4325E00C0A5C8 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142AC81CF4325E00C0A5C8 /* NearbyViewController.swift */; };
+		B4142ACB1CF4327400C0A5C8 /* LightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142ACA1CF4327400C0A5C8 /* LightsViewController.swift */; };
+		B4142ACD1CF4329700C0A5C8 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142ACC1CF4329700C0A5C8 /* GroupsViewController.swift */; };
+		B4142AE01CF57D1800C0A5C8 /* SelectableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4142ADF1CF57D1800C0A5C8 /* SelectableTableViewController.swift */; };
+		B427982C1CEB1A6700636B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B427982B1CEB1A6700636B8E /* Assets.xcassets */; };
+		B432AE151CED6A000032BC9C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B432AE131CED6A000032BC9C /* Model.xcdatamodeld */; };
+		B435B83F1D24BFBE009D5E93 /* BlueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B435B83E1D24BFBD009D5E93 /* BlueManager.m */; };
+		B435B8471D24C047009D5E93 /* CryptoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B435B8421D24C047009D5E93 /* CryptoAction.m */; };
+		B435B8481D24C047009D5E93 /* CryptoUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B435B8431D24C047009D5E93 /* CryptoUtil.c */; };
+		B435B8491D24C047009D5E93 /* TranslateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B435B8461D24C047009D5E93 /* TranslateTool.m */; };
+		B435B84C1D24C83B009D5E93 /* BlueClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B435B84B1D24C83B009D5E93 /* BlueClient.m */; };
+		B44571051D48960300E5CD61 /* CTFM02P30D02C00H030101-S0103.bin in Resources */ = {isa = PBXBuildFile; fileRef = B44571021D48960300E5CD61 /* CTFM02P30D02C00H030101-S0103.bin */; };
+		B44571061D48960300E5CD61 /* CTFM02P30D02C00H040101-S0103.bin in Resources */ = {isa = PBXBuildFile; fileRef = B44571031D48960300E5CD61 /* CTFM02P30D02C00H040101-S0103.bin */; };
+		B44571071D48960300E5CD61 /* CTFM02P30D02C00H060101-S0103.bin in Resources */ = {isa = PBXBuildFile; fileRef = B44571041D48960300E5CD61 /* CTFM02P30D02C00H060101-S0103.bin */; };
+		B46C5D0A1D10FE6E0056D0FF /* LightControlRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C5D091D10FE6E0056D0FF /* LightControlRootController.swift */; };
+		B46C5D0C1D11007E0056D0FF /* SideListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C5D0B1D11007E0056D0FF /* SideListController.swift */; };
+		B46C5D1C1D1145E60056D0FF /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C5D1B1D1145E60056D0FF /* UIViewController+Utils.swift */; };
+		B46C5D1F1D13A67D0056D0FF /* GroupEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C5D1E1D13A67D0056D0FF /* GroupEditController.swift */; };
+		B46C5D211D13CF190056D0FF /* GroupAddLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C5D201D13CF190056D0FF /* GroupAddLightController.swift */; };
+		B478E54F1D2E2BDC00465E84 /* Streamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478E54E1D2E2BDC00465E84 /* Streamer.swift */; };
+		B478E5531D2E2C2600465E84 /* StreamerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478E5521D2E2C2600465E84 /* StreamerManager.swift */; };
+		B478E5551D2E318300465E84 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478E5541D2E318300465E84 /* SceneController.swift */; };
+		B478E5571D2E336800465E84 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478E5561D2E336800465E84 /* Scene.swift */; };
+		B478E5591D2E339300465E84 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478E5581D2E339300465E84 /* SceneManager.swift */; };
+		B47D9F0B1D46F8B200CBEBA0 /* CTFM02P30D02C00H040101-S0102.bin in Resources */ = {isa = PBXBuildFile; fileRef = B47D9F091D46F8B200CBEBA0 /* CTFM02P30D02C00H040101-S0102.bin */; };
+		B47D9F0C1D46F8B200CBEBA0 /* CTFM02P30D02C00H060101-S0102.bin in Resources */ = {isa = PBXBuildFile; fileRef = B47D9F0A1D46F8B200CBEBA0 /* CTFM02P30D02C00H060101-S0102.bin */; };
+		B4836A3F1D05706400EE6E56 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4836A3D1D05706400EE6E56 /* Group.swift */; };
+		B4836A451D05719F00EE6E56 /* SubTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4836A441D05719F00EE6E56 /* SubTitleButton.swift */; };
+		B4836A481D0571B400EE6E56 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4836A461D0571B400EE6E56 /* DeviceCell.swift */; };
+		B4836A491D0571B400EE6E56 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4836A471D0571B400EE6E56 /* DeviceCell.xib */; };
+		B4836A4B1D0571F100EE6E56 /* GroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4836A4A1D0571F100EE6E56 /* GroupManager.swift */; };
+		B48A492D1D065C4500860C4C /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A492B1D065C4500860C4C /* GroupCell.swift */; };
+		B48A492E1D065C4500860C4C /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48A492C1D065C4500860C4C /* GroupCell.xib */; };
+		B48A49301D066C7200860C4C /* SelectableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A492F1D066C7200860C4C /* SelectableCell.swift */; };
+		B48A49321D06741100860C4C /* AddGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A49311D06741100860C4C /* AddGroupController.swift */; };
+		B48A493D1D07CBBD00860C4C /* TwinkleStar.sks in Resources */ = {isa = PBXBuildFile; fileRef = B48A493B1D07CBBD00860C4C /* TwinkleStar.sks */; };
+		B48A49481D07EC5500860C4C /* LightControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A49471D07EC5500860C4C /* LightControlController.swift */; };
+		B48A496C1D07FC5000860C4C /* NightScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B48A496B1D07FC4F00860C4C /* NightScene.sks */; };
+		B48A49701D07FCF400860C4C /* NightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A496F1D07FCF400860C4C /* NightScene.swift */; };
+		B48A497B1D0815CB00860C4C /* Meteor.sks in Resources */ = {isa = PBXBuildFile; fileRef = B48A49791D0815CB00860C4C /* Meteor.sks */; };
+		B48A49821D0823ED00860C4C /* Meteor_extra.sks in Resources */ = {isa = PBXBuildFile; fileRef = B48A49811D0823ED00860C4C /* Meteor_extra.sks */; };
+		B48AA1971D2D008F008B1771 /* ColorSendAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48AA1961D2D008F008B1771 /* ColorSendAdapter.swift */; };
+		B48E92781CED8C430065D7BB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E92771CED8C430065D7BB /* CoreDataManager.swift */; };
+		B48E927C1CED9C6B0065D7BB /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E927B1CED9C6B0065D7BB /* DeviceManager.swift */; };
+		B48E927F1CEDAC970065D7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E927D1CEDAC970065D7BB /* AppDelegate.swift */; };
+		B48E92951CEDAF8B0065D7BB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E92931CEDAF8B0065D7BB /* Device.swift */; };
+		B4936A8C1D2529C60085CA0A /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4936A8B1D2529C60085CA0A /* SettingController.swift */; };
+		B4936A8E1D2607F70085CA0A /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4936A8D1D2607F70085CA0A /* AppInfo.swift */; };
+		B4B595DE1D263CDD00F7F8A1 /* BlueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B595DD1D263CDD00F7F8A1 /* BlueService.swift */; };
+		B4BE28461D33812000C4AB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BE28451D33812000C4AB29 /* Main.storyboard */; };
+		B4BE28481D348E8500C4AB29 /* AlarmAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE28471D348E8500C4AB29 /* AlarmAddController.swift */; };
+		B4BE284A1D34E73100C4AB29 /* WeekPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE28491D34E73100C4AB29 /* WeekPickerController.swift */; };
+		B4BE284C1D36119000C4AB29 /* AlarmEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE284B1D36119000C4AB29 /* AlarmEditController.swift */; };
+		B4BE284E1D36437700C4AB29 /* StreamerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE284D1D36437700C4AB29 /* StreamerController.swift */; };
+		B4BE28551D37821F00C4AB29 /* Streamer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE28531D37821F00C4AB29 /* Streamer+CoreDataProperties.swift */; };
+		B4BE28561D37821F00C4AB29 /* Scene+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE28541D37821F00C4AB29 /* Scene+CoreDataProperties.swift */; };
+		B4BE285A1D3E120100C4AB29 /* OTAListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE28591D3E120100C4AB29 /* OTAListController.swift */; };
+		B4BE285D1D3E144700C4AB29 /* CTFM02P30D02C00H030101-S0102.bin in Resources */ = {isa = PBXBuildFile; fileRef = B4BE285C1D3E144700C4AB29 /* CTFM02P30D02C00H030101-S0102.bin */; };
+		B4BE285F1D3E16EC00C4AB29 /* OTAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE285E1D3E16EC00C4AB29 /* OTAService.swift */; };
+		B4D380031D2E5694007D42D7 /* SceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D380011D2E5694007D42D7 /* SceneCell.swift */; };
+		B4D380071D33406B007D42D7 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D380061D33406B007D42D7 /* AlarmController.swift */; };
+		B4DEE0141D0A7EC800F42B4B /* ColorRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEE0131D0A7EC800F42B4B /* ColorRingView.swift */; };
+		B4DEE0161D0A7EDB00F42B4B /* ColorPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEE0151D0A7EDB00F42B4B /* ColorPanelView.swift */; };
+		B4DEE0181D0A7F0300F42B4B /* WarmRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEE0171D0A7F0300F42B4B /* WarmRingView.swift */; };
+		B4DEE01A1D0A7F2400F42B4B /* BrightProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEE0191D0A7F2400F42B4B /* BrightProgressView.swift */; };
+		B4ED1AF71D2613190088AC66 /* NetworkInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED1AF61D2613190088AC66 /* NetworkInfoController.swift */; };
+		B4F054FE1CF83ABB00EB6900 /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F054FD1CF83ABB00EB6900 /* RefreshHeader.swift */; };
+		CE3F9B26FD7760D77DA6CD67 /* Pods_BlueLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A99BEA432D58D2FA6D31553 /* Pods_BlueLight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A99BEA432D58D2FA6D31553 /* Pods_BlueLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4142AB31CF42B7B00C0A5C8 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = Controllers/Main/MainController.swift; sourceTree = "<group>"; };
+		B4142AB61CF42E2300C0A5C8 /* SlideTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlideTopBar.swift; path = Controllers/Main/SlideTopBarController/SlideTopBar.swift; sourceTree = "<group>"; };
+		B4142AB71CF42E2300C0A5C8 /* SlideTopBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlideTopBarController.swift; path = Controllers/Main/SlideTopBarController/SlideTopBarController.swift; sourceTree = "<group>"; };
+		B4142AC01CF42F7400C0A5C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4142AC21CF42F7900C0A5C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B4142AC41CF4300A00C0A5C8 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Utils.swift"; path = "Utils/UIColor+Utils.swift"; sourceTree = "<group>"; };
+		B4142AC51CF4300A00C0A5C8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utils/Utils.swift; sourceTree = "<group>"; };
+		B4142AC81CF4325E00C0A5C8 /* NearbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearbyViewController.swift; path = Controllers/Main/NearbyViewController.swift; sourceTree = "<group>"; };
+		B4142ACA1CF4327400C0A5C8 /* LightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightsViewController.swift; path = Controllers/Main/LightsViewController.swift; sourceTree = "<group>"; };
+		B4142ACC1CF4329700C0A5C8 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupsViewController.swift; path = Controllers/Main/GroupsViewController.swift; sourceTree = "<group>"; };
+		B4142ADF1CF57D1800C0A5C8 /* SelectableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectableTableViewController.swift; path = Controllers/Main/SelectableTableViewController/SelectableTableViewController.swift; sourceTree = "<group>"; };
+		B42798211CEB1A6600636B8E /* BlueLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B427982B1CEB1A6700636B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B432AE141CED6A000032BC9C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B435B83D1D24BFBD009D5E93 /* BlueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueManager.h; path = Classes/BlueManager/BlueManager.h; sourceTree = "<group>"; };
+		B435B83E1D24BFBD009D5E93 /* BlueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlueManager.m; path = Classes/BlueManager/BlueManager.m; sourceTree = "<group>"; };
+		B435B8401D24C047009D5E93 /* BTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTConst.h; path = Classes/BlueManager/BTConst.h; sourceTree = "<group>"; };
+		B435B8411D24C047009D5E93 /* CryptoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CryptoAction.h; path = Classes/BlueManager/CryptoAction.h; sourceTree = "<group>"; };
+		B435B8421D24C047009D5E93 /* CryptoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CryptoAction.m; path = Classes/BlueManager/CryptoAction.m; sourceTree = "<group>"; };
+		B435B8431D24C047009D5E93 /* CryptoUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CryptoUtil.c; path = Classes/BlueManager/CryptoUtil.c; sourceTree = "<group>"; };
+		B435B8441D24C047009D5E93 /* CryptoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CryptoUtil.h; path = Classes/BlueManager/CryptoUtil.h; sourceTree = "<group>"; };
+		B435B8451D24C047009D5E93 /* TranslateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TranslateTool.h; path = Classes/BlueManager/TranslateTool.h; sourceTree = "<group>"; };
+		B435B8461D24C047009D5E93 /* TranslateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TranslateTool.m; path = Classes/BlueManager/TranslateTool.m; sourceTree = "<group>"; };
+		B435B84A1D24C83B009D5E93 /* BlueClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueClient.h; path = Classes/BlueManager/BlueClient.h; sourceTree = "<group>"; };
+		B435B84B1D24C83B009D5E93 /* BlueClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlueClient.m; path = Classes/BlueManager/BlueClient.m; sourceTree = "<group>"; };
+		B44571021D48960300E5CD61 /* CTFM02P30D02C00H030101-S0103.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "CTFM02P30D02C00H030101-S0103.bin"; path = "Classes/Bin/CTFM02P30D02C00H030101-S0103.bin"; sourceTree = "<group>"; };
+		B44571031D48960300E5CD61 /* CTFM02P30D02C00H040101-S0103.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "CTFM02P30D02C00H040101-S0103.bin"; path = "Classes/Bin/CTFM02P30D02C00H040101-S0103.bin"; sourceTree = "<group>"; };
+		B44571041D48960300E5CD61 /* CTFM02P30D02C00H060101-S0103.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "CTFM02P30D02C00H060101-S0103.bin"; path = "Classes/Bin/CTFM02P30D02C00H060101-S0103.bin"; sourceTree = "<group>"; };
+		B46C5D091D10FE6E0056D0FF /* LightControlRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightControlRootController.swift; path = Controllers/Control/LightControlRootController.swift; sourceTree = "<group>"; };
+		B46C5D0B1D11007E0056D0FF /* SideListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideListController.swift; path = Controllers/Control/SideListController.swift; sourceTree = "<group>"; };
+		B46C5D1B1D1145E60056D0FF /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "Utils/UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		B46C5D1E1D13A67D0056D0FF /* GroupEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupEditController.swift; path = Controllers/Main/GroupEditController.swift; sourceTree = "<group>"; };
+		B46C5D201D13CF190056D0FF /* GroupAddLightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupAddLightController.swift; path = Controllers/Main/GroupAddLightController.swift; sourceTree = "<group>"; };
+		B478E54E1D2E2BDC00465E84 /* Streamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Streamer.swift; path = Models/Streamer.swift; sourceTree = "<group>"; };
+		B478E5521D2E2C2600465E84 /* StreamerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamerManager.swift; path = Models/StreamerManager.swift; sourceTree = "<group>"; };
+		B478E5541D2E318300465E84 /* SceneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneController.swift; path = Controllers/Control/SceneController.swift; sourceTree = "<group>"; };
+		B478E5561D2E336800465E84 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scene.swift; path = Models/Scene.swift; sourceTree = "<group>"; };
+		B478E5581D2E339300465E84 /* SceneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneManager.swift; path = Models/SceneManager.swift; sourceTree = "<group>"; };
+		B47D9F091D46F8B200CBEBA0 /* CTFM02P30D02C00H040101-S0102.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "CTFM02P30D02C00H040101-S0102.bin"; path = "Classes/Bin/CTFM02P30D02C00H040101-S0102.bin"; sourceTree = "<group>"; };
+		B47D9F0A1D46F8B200CBEBA0 /* CTFM02P30D02C00H060101-S0102.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "CTFM02P30D02C00H060101-S0102.bin"; path = "Classes/Bin/CTFM02P30D02C00H060101-S0102.bin"; sourceTree = "<group>"; };
+		B4836A3D1D05706400EE6E56 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Group.swift; path = Models/Group.swift; sourceTree = "<group>"; };
+		B4836A441D05719F00EE6E56 /* SubTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubTitleButton.swift; path = Views/SubTitleButton.swift; sourceTree = "<group>"; };
+		B4836A461D0571B400EE6E56 /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceCell.swift; path = Controllers/Main/SelectableTableViewController/DeviceCell.swift; sourceTree = "<group>"; };
+		B4836A471D0571B400EE6E56 /* DeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeviceCell.xib; path = Controllers/Main/SelectableTableViewController/DeviceCell.xib; sourceTree = "<group>"; };
+		B4836A4A1D0571F100EE6E56 /* GroupManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupManager.swift; path = Models/GroupManager.swift; sourceTree = "<group>"; };
+		B48A492B1D065C4500860C4C /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupCell.swift; path = Controllers/Main/SelectableTableViewController/GroupCell.swift; sourceTree = "<group>"; };
+		B48A492C1D065C4500860C4C /* GroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GroupCell.xib; path = Controllers/Main/SelectableTableViewController/GroupCell.xib; sourceTree = "<group>"; };
+		B48A492F1D066C7200860C4C /* SelectableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectableCell.swift; path = Controllers/Main/SelectableTableViewController/SelectableCell.swift; sourceTree = "<group>"; };
+		B48A49311D06741100860C4C /* AddGroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddGroupController.swift; path = Controllers/Main/AddGroupController.swift; sourceTree = "<group>"; };
+		B48A493B1D07CBBD00860C4C /* TwinkleStar.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = TwinkleStar.sks; path = Controllers/Control/View/TwinkleStar.sks; sourceTree = "<group>"; };
+		B48A49471D07EC5500860C4C /* LightControlController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightControlController.swift; path = Controllers/Control/LightControlController.swift; sourceTree = "<group>"; };
+		B48A496B1D07FC4F00860C4C /* NightScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = NightScene.sks; path = Controllers/Control/View/NightScene.sks; sourceTree = "<group>"; };
+		B48A496F1D07FCF400860C4C /* NightScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NightScene.swift; path = Controllers/Control/View/NightScene.swift; sourceTree = "<group>"; };
+		B48A49791D0815CB00860C4C /* Meteor.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Meteor.sks; path = Controllers/Control/View/Meteor.sks; sourceTree = "<group>"; };
+		B48A49811D0823ED00860C4C /* Meteor_extra.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Meteor_extra.sks; path = Controllers/Control/View/Meteor_extra.sks; sourceTree = "<group>"; };
+		B48AA1961D2D008F008B1771 /* ColorSendAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorSendAdapter.swift; path = Classes/ColorSendAdapter.swift; sourceTree = "<group>"; };
+		B48E92771CED8C430065D7BB /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = Models/CoreDataManager.swift; sourceTree = "<group>"; };
+		B48E927B1CED9C6B0065D7BB /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceManager.swift; path = Models/DeviceManager.swift; sourceTree = "<group>"; };
+		B48E927D1CEDAC970065D7BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B48E927E1CEDAC970065D7BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48E92931CEDAF8B0065D7BB /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Models/Device.swift; sourceTree = "<group>"; };
+		B48E92961CEDB0060065D7BB /* BlueLight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueLight-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4936A8B1D2529C60085CA0A /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingController.swift; path = Controllers/Main/SettingController.swift; sourceTree = "<group>"; };
+		B4936A8D1D2607F70085CA0A /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppInfo.swift; path = Classes/AppInfo.swift; sourceTree = "<group>"; };
+		B4B595DD1D263CDD00F7F8A1 /* BlueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueService.swift; path = Classes/BlueService.swift; sourceTree = "<group>"; };
+		B4BE28451D33812000C4AB29 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Controllers/Main/Main.storyboard; sourceTree = "<group>"; };
+		B4BE28471D348E8500C4AB29 /* AlarmAddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlarmAddController.swift; path = Controllers/Control/AlarmAddController.swift; sourceTree = "<group>"; };
+		B4BE28491D34E73100C4AB29 /* WeekPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeekPickerController.swift; path = Controllers/Control/WeekPickerController.swift; sourceTree = "<group>"; };
+		B4BE284B1D36119000C4AB29 /* AlarmEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlarmEditController.swift; path = Controllers/Control/AlarmEditController.swift; sourceTree = "<group>"; };
+		B4BE284D1D36437700C4AB29 /* StreamerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamerController.swift; path = Controllers/Control/StreamerController.swift; sourceTree = "<group>"; };
+		B4BE28531D37821F00C4AB29 /* Streamer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Streamer+CoreDataProperties.swift"; path = "Models/Streamer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B4BE28541D37821F00C4AB29 /* Scene+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Scene+CoreDataProperties.swift"; path = "Models/Scene+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B4BE28591D3E120100C4AB29 /* OTAListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTAListController.swift; path = Classes/OTAListController.swift; sourceTree = "<group>"; };
+		B4BE285C1D3E144700C4AB29 /* CTFM02P30D02C00H030101-S0102.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "CTFM02P30D02C00H030101-S0102.bin"; path = "Classes/Bin/CTFM02P30D02C00H030101-S0102.bin"; sourceTree = "<group>"; };
+		B4BE285E1D3E16EC00C4AB29 /* OTAService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTAService.swift; path = Classes/OTAService.swift; sourceTree = "<group>"; };
+		B4D380011D2E5694007D42D7 /* SceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneCell.swift; path = Controllers/Control/View/SceneCell.swift; sourceTree = "<group>"; };
+		B4D380061D33406B007D42D7 /* AlarmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlarmController.swift; path = Controllers/Control/AlarmController.swift; sourceTree = "<group>"; };
+		B4DEE0131D0A7EC800F42B4B /* ColorRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorRingView.swift; path = Controllers/Control/View/ColorRingView.swift; sourceTree = "<group>"; };
+		B4DEE0151D0A7EDB00F42B4B /* ColorPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPanelView.swift; path = Controllers/Control/View/ColorPanelView.swift; sourceTree = "<group>"; };
+		B4DEE0171D0A7F0300F42B4B /* WarmRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WarmRingView.swift; path = Controllers/Control/View/WarmRingView.swift; sourceTree = "<group>"; };
+		B4DEE0191D0A7F2400F42B4B /* BrightProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrightProgressView.swift; path = Controllers/Control/View/BrightProgressView.swift; sourceTree = "<group>"; };
+		B4ED1AF61D2613190088AC66 /* NetworkInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkInfoController.swift; path = Controllers/Main/NetworkInfoController.swift; sourceTree = "<group>"; };
+		B4F054FD1CF83ABB00EB6900 /* RefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RefreshHeader.swift; path = Views/RefreshHeader.swift; sourceTree = "<group>"; };
+		DADFD86AADCCDDD7EE8698CA /* Pods-BlueLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueLight/Pods-BlueLight.debug.xcconfig"; sourceTree = "<group>"; };
+		E43DAA69D7FEAB968824CD76 /* Pods-BlueLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueLight/Pods-BlueLight.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B427981E1CEB1A6600636B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3F9B26FD7760D77DA6CD67 /* Pods_BlueLight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100903054871E9109C22C676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A99BEA432D58D2FA6D31553 /* Pods_BlueLight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C32BC5A2AD0268B8A5153C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DADFD86AADCCDDD7EE8698CA /* Pods-BlueLight.debug.xcconfig */,
+				E43DAA69D7FEAB968824CD76 /* Pods-BlueLight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B40598871D2E2B1700A51851 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B478E5561D2E336800465E84 /* Scene.swift */,
+				B4BE28541D37821F00C4AB29 /* Scene+CoreDataProperties.swift */,
+				B478E5581D2E339300465E84 /* SceneManager.swift */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		B40598881D2E2B1F00A51851 /* Streamser */ = {
+			isa = PBXGroup;
+			children = (
+				B478E54E1D2E2BDC00465E84 /* Streamer.swift */,
+				B4BE28531D37821F00C4AB29 /* Streamer+CoreDataProperties.swift */,
+				B478E5521D2E2C2600465E84 /* StreamerManager.swift */,
+			);
+			name = Streamser;
+			sourceTree = "<group>";
+		};
+		B4142AB01CF42AD000C0A5C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B4142ADE1CF57CDA00C0A5C8 /* SelectableTableViewController */,
+				B4142AB51CF42E1B00C0A5C8 /* SlideTopBarController */,
+				B4BE28451D33812000C4AB29 /* Main.storyboard */,
+				B4142AB31CF42B7B00C0A5C8 /* MainController.swift */,
+				B4142AC81CF4325E00C0A5C8 /* NearbyViewController.swift */,
+				B4142ACA1CF4327400C0A5C8 /* LightsViewController.swift */,
+				B4142ACC1CF4329700C0A5C8 /* GroupsViewController.swift */,
+				B4936A8A1D2529310085CA0A /* Setting */,
+				B46C5D1D1D13A6340056D0FF /* GroupEdit */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B4142AB51CF42E1B00C0A5C8 /* SlideTopBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B4142AB61CF42E2300C0A5C8 /* SlideTopBar.swift */,
+				B4142AB71CF42E2300C0A5C8 /* SlideTopBarController.swift */,
+			);
+			name = SlideTopBarController;
+			sourceTree = "<group>";
+		};
+		B4142AC31CF42FC500C0A5C8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B46C5D1B1D1145E60056D0FF /* UIViewController+Utils.swift */,
+				B4142AC41CF4300A00C0A5C8 /* UIColor+Utils.swift */,
+				B4142AC51CF4300A00C0A5C8 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B4142AD31CF5482C00C0A5C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4BE285B1D3E140900C4AB29 /* Bin */,
+				B435B83C1D24BE6D009D5E93 /* BlueManager */,
+				B4B595DD1D263CDD00F7F8A1 /* BlueService.swift */,
+				B4936A8D1D2607F70085CA0A /* AppInfo.swift */,
+				B48AA1961D2D008F008B1771 /* ColorSendAdapter.swift */,
+				B4BE285E1D3E16EC00C4AB29 /* OTAService.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B4142ADE1CF57CDA00C0A5C8 /* SelectableTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4142ADF1CF57D1800C0A5C8 /* SelectableTableViewController.swift */,
+				B48A492F1D066C7200860C4C /* SelectableCell.swift */,
+				B4836A461D0571B400EE6E56 /* DeviceCell.swift */,
+				B4836A471D0571B400EE6E56 /* DeviceCell.xib */,
+				B48A492B1D065C4500860C4C /* GroupCell.swift */,
+				B48A492C1D065C4500860C4C /* GroupCell.xib */,
+			);
+			name = SelectableTableViewController;
+			sourceTree = "<group>";
+		};
+		B42798181CEB1A6600636B8E = {
+			isa = PBXGroup;
+			children = (
+				B42798231CEB1A6600636B8E /* BlueLight */,
+				B42798221CEB1A6600636B8E /* Products */,
+				2C32BC5A2AD0268B8A5153C1 /* Pods */,
+				100903054871E9109C22C676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B42798221CEB1A6600636B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42798211CEB1A6600636B8E /* BlueLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42798231CEB1A6600636B8E /* BlueLight */ = {
+			isa = PBXGroup;
+			children = (
+				B4142AD31CF5482C00C0A5C8 /* Classes */,
+				B4142AC31CF42FC500C0A5C8 /* Utils */,
+				B432ADF01CED63B10032BC9C /* Vender */,
+				B432ADED1CED5A730032BC9C /* Controllers */,
+				B432ADEC1CED5A6D0032BC9C /* Views */,
+				B432ADE71CED55E70032BC9C /* Models */,
+				B4D884841CEC3525008AA05E /* Support */,
+			);
+			path = BlueLight;
+			sourceTree = "<group>";
+		};
+		B432ADE71CED55E70032BC9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B432AE131CED6A000032BC9C /* Model.xcdatamodeld */,
+				B48E92771CED8C430065D7BB /* CoreDataManager.swift */,
+				B40598881D2E2B1F00A51851 /* Streamser */,
+				B40598871D2E2B1700A51851 /* Scene */,
+				B48E927A1CED9C3E0065D7BB /* Device */,
+				B4836A3B1D05704600EE6E56 /* Group */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B432ADEC1CED5A6D0032BC9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4F054FD1CF83ABB00EB6900 /* RefreshHeader.swift */,
+				B4836A441D05719F00EE6E56 /* SubTitleButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B432ADED1CED5A730032BC9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B48A49371D07C58F00860C4C /* Control */,
+				B4142AB01CF42AD000C0A5C8 /* Main */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B432ADF01CED63B10032BC9C /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		B435B83C1D24BE6D009D5E93 /* BlueManager */ = {
+			isa = PBXGroup;
+			children = (
+				B435B83D1D24BFBD009D5E93 /* BlueManager.h */,
+				B435B83E1D24BFBD009D5E93 /* BlueManager.m */,
+				B435B84B1D24C83B009D5E93 /* BlueClient.m */,
+				B435B84A1D24C83B009D5E93 /* BlueClient.h */,
+				B435B8401D24C047009D5E93 /* BTConst.h */,
+				B435B8411D24C047009D5E93 /* CryptoAction.h */,
+				B435B8421D24C047009D5E93 /* CryptoAction.m */,
+				B435B8431D24C047009D5E93 /* CryptoUtil.c */,
+				B435B8441D24C047009D5E93 /* CryptoUtil.h */,
+				B435B8451D24C047009D5E93 /* TranslateTool.h */,
+				B435B8461D24C047009D5E93 /* TranslateTool.m */,
+			);
+			name = BlueManager;
+			sourceTree = "<group>";
+		};
+		B46C5D1D1D13A6340056D0FF /* GroupEdit */ = {
+			isa = PBXGroup;
+			children = (
+				B48A49311D06741100860C4C /* AddGroupController.swift */,
+				B46C5D1E1D13A67D0056D0FF /* GroupEditController.swift */,
+				B46C5D201D13CF190056D0FF /* GroupAddLightController.swift */,
+			);
+			name = GroupEdit;
+			sourceTree = "<group>";
+		};
+		B4836A3B1D05704600EE6E56 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				B4836A3D1D05706400EE6E56 /* Group.swift */,
+				B4836A4A1D0571F100EE6E56 /* GroupManager.swift */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
+		B48A49371D07C58F00860C4C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				B4D380051D333A1C007D42D7 /* 定时 */,
+				B4D37FFF1D2E5658007D42D7 /* 灯控 */,
+				B49B34EF1D2E25D900EBA9B6 /* 场景 */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		B48A49381D07CA4100860C4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B48A49811D0823ED00860C4C /* Meteor_extra.sks */,
+				B48A49791D0815CB00860C4C /* Meteor.sks */,
+				B48A493B1D07CBBD00860C4C /* TwinkleStar.sks */,
+				B48A496B1D07FC4F00860C4C /* NightScene.sks */,
+				B48A496F1D07FCF400860C4C /* NightScene.swift */,
+				B4DEE0131D0A7EC800F42B4B /* ColorRingView.swift */,
+				B4DEE0151D0A7EDB00F42B4B /* ColorPanelView.swift */,
+				B4DEE0171D0A7F0300F42B4B /* WarmRingView.swift */,
+				B4DEE0191D0A7F2400F42B4B /* BrightProgressView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B48E927A1CED9C3E0065D7BB /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				B48E927B1CED9C6B0065D7BB /* DeviceManager.swift */,
+				B48E92931CEDAF8B0065D7BB /* Device.swift */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		B4936A8A1D2529310085CA0A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B4936A8B1D2529C60085CA0A /* SettingController.swift */,
+				B4ED1AF61D2613190088AC66 /* NetworkInfoController.swift */,
+				B4BE28591D3E120100C4AB29 /* OTAListController.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		B49B34EF1D2E25D900EBA9B6 /* 场景 */ = {
+			isa = PBXGroup;
+			children = (
+				B4D380001D2E5665007D42D7 /* Views */,
+				B478E5541D2E318300465E84 /* SceneController.swift */,
+				B4BE284D1D36437700C4AB29 /* StreamerController.swift */,
+			);
+			name = "场景";
+			sourceTree = "<group>";
+		};
+		B4BE285B1D3E140900C4AB29 /* Bin */ = {
+			isa = PBXGroup;
+			children = (
+				B4BE285C1D3E144700C4AB29 /* CTFM02P30D02C00H030101-S0102.bin */,
+				B47D9F091D46F8B200CBEBA0 /* CTFM02P30D02C00H040101-S0102.bin */,
+				B47D9F0A1D46F8B200CBEBA0 /* CTFM02P30D02C00H060101-S0102.bin */,
+				B44571021D48960300E5CD61 /* CTFM02P30D02C00H030101-S0103.bin */,
+				B44571031D48960300E5CD61 /* CTFM02P30D02C00H040101-S0103.bin */,
+				B44571041D48960300E5CD61 /* CTFM02P30D02C00H060101-S0103.bin */,
+			);
+			name = Bin;
+			sourceTree = "<group>";
+		};
+		B4D37FFF1D2E5658007D42D7 /* 灯控 */ = {
+			isa = PBXGroup;
+			children = (
+				B48A49381D07CA4100860C4C /* Views */,
+				B48A49471D07EC5500860C4C /* LightControlController.swift */,
+				B46C5D091D10FE6E0056D0FF /* LightControlRootController.swift */,
+				B46C5D0B1D11007E0056D0FF /* SideListController.swift */,
+			);
+			name = "灯控";
+			sourceTree = "<group>";
+		};
+		B4D380001D2E5665007D42D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4D380011D2E5694007D42D7 /* SceneCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B4D380051D333A1C007D42D7 /* 定时 */ = {
+			isa = PBXGroup;
+			children = (
+				B4D380081D334077007D42D7 /* Views */,
+				B4D380061D33406B007D42D7 /* AlarmController.swift */,
+				B4BE28471D348E8500C4AB29 /* AlarmAddController.swift */,
+				B4BE284B1D36119000C4AB29 /* AlarmEditController.swift */,
+				B4BE28491D34E73100C4AB29 /* WeekPickerController.swift */,
+			);
+			name = "定时";
+			sourceTree = "<group>";
+		};
+		B4D380081D334077007D42D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B4D884841CEC3525008AA05E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B48E927D1CEDAC970065D7BB /* AppDelegate.swift */,
+				B48E927E1CEDAC970065D7BB /* Info.plist */,
+				B427982B1CEB1A6700636B8E /* Assets.xcassets */,
+				B48E92961CEDB0060065D7BB /* BlueLight-Bridging-Header.h */,
+				B4142AC11CF42F7400C0A5C8 /* Localizable.strings */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42798201CEB1A6600636B8E /* BlueLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42798331CEB1A6700636B8E /* Build configuration list for PBXNativeTarget "BlueLight" */;
+			buildPhases = (
+				81CB91744025CEB46B41AF3F /* 📦 Check Pods Manifest.lock */,
+				B427981D1CEB1A6600636B8E /* Sources */,
+				B427981E1CEB1A6600636B8E /* Frameworks */,
+				B427981F1CEB1A6600636B8E /* Resources */,
+				18FE5106E26D0C96E0C54A97 /* 📦 Embed Pods Frameworks */,
+				4C8A38B0923F8B3AF6CC10DB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueLight;
+			productName = BlueLight;
+			productReference = B42798211CEB1A6600636B8E /* BlueLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42798191CEB1A6600636B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Rail;
+				TargetAttributes = {
+					B42798201CEB1A6600636B8E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HZ486A3TCK;
+						DevelopmentTeamName = "Suzhou Chi-tek Information Technology Co.Ltd.";
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = B427981C1CEB1A6600636B8E /* Build configuration list for PBXProject "BlueLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = B42798181CEB1A6600636B8E;
+			productRefGroup = B42798221CEB1A6600636B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42798201CEB1A6600636B8E /* BlueLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B427981F1CEB1A6600636B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47D9F0B1D46F8B200CBEBA0 /* CTFM02P30D02C00H040101-S0102.bin in Resources */,
+				B4BE285D1D3E144700C4AB29 /* CTFM02P30D02C00H030101-S0102.bin in Resources */,
+				B48A493D1D07CBBD00860C4C /* TwinkleStar.sks in Resources */,
+				B48A49821D0823ED00860C4C /* Meteor_extra.sks in Resources */,
+				B48A496C1D07FC5000860C4C /* NightScene.sks in Resources */,
+				B48A497B1D0815CB00860C4C /* Meteor.sks in Resources */,
+				B44571071D48960300E5CD61 /* CTFM02P30D02C00H060101-S0103.bin in Resources */,
+				B44571061D48960300E5CD61 /* CTFM02P30D02C00H040101-S0103.bin in Resources */,
+				B48A492E1D065C4500860C4C /* GroupCell.xib in Resources */,
+				B4142ABF1CF42F7400C0A5C8 /* Localizable.strings in Resources */,
+				B47D9F0C1D46F8B200CBEBA0 /* CTFM02P30D02C00H060101-S0102.bin in Resources */,
+				B4BE28461D33812000C4AB29 /* Main.storyboard in Resources */,
+				B427982C1CEB1A6700636B8E /* Assets.xcassets in Resources */,
+				B44571051D48960300E5CD61 /* CTFM02P30D02C00H030101-S0103.bin in Resources */,
+				B4836A491D0571B400EE6E56 /* DeviceCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FE5106E26D0C96E0C54A97 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueLight/Pods-BlueLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8A38B0923F8B3AF6CC10DB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueLight/Pods-BlueLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81CB91744025CEB46B41AF3F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B427981D1CEB1A6600636B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B435B8471D24C047009D5E93 /* CryptoAction.m in Sources */,
+				B4D380071D33406B007D42D7 /* AlarmController.swift in Sources */,
+				B4BE285F1D3E16EC00C4AB29 /* OTAService.swift in Sources */,
+				B4836A451D05719F00EE6E56 /* SubTitleButton.swift in Sources */,
+				B4BE285A1D3E120100C4AB29 /* OTAListController.swift in Sources */,
+				B478E5551D2E318300465E84 /* SceneController.swift in Sources */,
+				B4836A4B1D0571F100EE6E56 /* GroupManager.swift in Sources */,
+				B4836A3F1D05706400EE6E56 /* Group.swift in Sources */,
+				B46C5D1F1D13A67D0056D0FF /* GroupEditController.swift in Sources */,
+				B4DEE01A1D0A7F2400F42B4B /* BrightProgressView.swift in Sources */,
+				B4F054FE1CF83ABB00EB6900 /* RefreshHeader.swift in Sources */,
+				B4936A8C1D2529C60085CA0A /* SettingController.swift in Sources */,
+				B4142AC61CF4300A00C0A5C8 /* UIColor+Utils.swift in Sources */,
+				B4B595DE1D263CDD00F7F8A1 /* BlueService.swift in Sources */,
+				B46C5D211D13CF190056D0FF /* GroupAddLightController.swift in Sources */,
+				B4BE284C1D36119000C4AB29 /* AlarmEditController.swift in Sources */,
+				B4ED1AF71D2613190088AC66 /* NetworkInfoController.swift in Sources */,
+				B48E927C1CED9C6B0065D7BB /* DeviceManager.swift in Sources */,
+				B432AE151CED6A000032BC9C /* Model.xcdatamodeld in Sources */,
+				B478E5531D2E2C2600465E84 /* StreamerManager.swift in Sources */,
+				B478E54F1D2E2BDC00465E84 /* Streamer.swift in Sources */,
+				B435B83F1D24BFBE009D5E93 /* BlueManager.m in Sources */,
+				B46C5D1C1D1145E60056D0FF /* UIViewController+Utils.swift in Sources */,
+				B478E5571D2E336800465E84 /* Scene.swift in Sources */,
+				B4142AE01CF57D1800C0A5C8 /* SelectableTableViewController.swift in Sources */,
+				B48A49701D07FCF400860C4C /* NightScene.swift in Sources */,
+				B4BE284E1D36437700C4AB29 /* StreamerController.swift in Sources */,
+				B478E5591D2E339300465E84 /* SceneManager.swift in Sources */,
+				B4142ACB1CF4327400C0A5C8 /* LightsViewController.swift in Sources */,
+				B48A49321D06741100860C4C /* AddGroupController.swift in Sources */,
+				B4DEE0181D0A7F0300F42B4B /* WarmRingView.swift in Sources */,
+				B48A49301D066C7200860C4C /* SelectableCell.swift in Sources */,
+				B48E927F1CEDAC970065D7BB /* AppDelegate.swift in Sources */,
+				B4BE28481D348E8500C4AB29 /* AlarmAddController.swift in Sources */,
+				B4836A481D0571B400EE6E56 /* DeviceCell.swift in Sources */,
+				B4142ACD1CF4329700C0A5C8 /* GroupsViewController.swift in Sources */,
+				B4BE28551D37821F00C4AB29 /* Streamer+CoreDataProperties.swift in Sources */,
+				B4936A8E1D2607F70085CA0A /* AppInfo.swift in Sources */,
+				B48A492D1D065C4500860C4C /* GroupCell.swift in Sources */,
+				B4DEE0161D0A7EDB00F42B4B /* ColorPanelView.swift in Sources */,
+				B4142AB91CF42E2300C0A5C8 /* SlideTopBarController.swift in Sources */,
+				B48A49481D07EC5500860C4C /* LightControlController.swift in Sources */,
+				B46C5D0A1D10FE6E0056D0FF /* LightControlRootController.swift in Sources */,
+				B435B8481D24C047009D5E93 /* CryptoUtil.c in Sources */,
+				B4BE28561D37821F00C4AB29 /* Scene+CoreDataProperties.swift in Sources */,
+				B4BE284A1D34E73100C4AB29 /* WeekPickerController.swift in Sources */,
+				B4142AC71CF4300A00C0A5C8 /* Utils.swift in Sources */,
+				B4142AB81CF42E2300C0A5C8 /* SlideTopBar.swift in Sources */,
+				B46C5D0C1D11007E0056D0FF /* SideListController.swift in Sources */,
+				B4142AC91CF4325E00C0A5C8 /* NearbyViewController.swift in Sources */,
+				B48E92951CEDAF8B0065D7BB /* Device.swift in Sources */,
+				B4142AB41CF42B7B00C0A5C8 /* MainController.swift in Sources */,
+				B4D380031D2E5694007D42D7 /* SceneCell.swift in Sources */,
+				B435B84C1D24C83B009D5E93 /* BlueClient.m in Sources */,
+				B435B8491D24C047009D5E93 /* TranslateTool.m in Sources */,
+				B4DEE0141D0A7EC800F42B4B /* ColorRingView.swift in Sources */,
+				B48E92781CED8C430065D7BB /* CoreDataManager.swift in Sources */,
+				B48AA1971D2D008F008B1771 /* ColorSendAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4142AC11CF42F7400C0A5C8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4142AC01CF42F7400C0A5C8 /* en */,
+				B4142AC21CF42F7900C0A5C8 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42798311CEB1A6700636B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42798321CEB1A6700636B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42798341CEB1A6700636B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADFD86AADCCDDD7EE8698CA /* Pods-BlueLight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HZ486A3TCK;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BlueLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitek.BlueLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueLight/BlueLight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B42798351CEB1A6700636B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43DAA69D7FEAB968824CD76 /* Pods-BlueLight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HZ486A3TCK;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BlueLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitek.BlueLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueLight/BlueLight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B427981C1CEB1A6600636B8E /* Build configuration list for PBXProject "BlueLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42798311CEB1A6700636B8E /* Debug */,
+				B42798321CEB1A6700636B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42798331CEB1A6700636B8E /* Build configuration list for PBXNativeTarget "BlueLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42798341CEB1A6700636B8E /* Debug */,
+				B42798351CEB1A6700636B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B432AE131CED6A000032BC9C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B432AE141CED6A000032BC9C /* Model.xcdatamodel */,
+			);
+			currentVersion = B432AE141CED6A000032BC9C /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Models/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B42798191CEB1A6600636B8E /* Project object */;
+}
